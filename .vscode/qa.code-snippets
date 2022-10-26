@@ -1,0 +1,78 @@
+{
+	"QA snippet": {
+		"prefix": "qa",
+		"body": [
+			"Q:$1",
+			"A:$2"
+		],
+		"description": "QA snippet"
+	},
+	"Anki inline equation": {
+		"prefix": "ein",
+		"body": [
+			"\\($1\\)"
+		],
+		"description": "Anki inline equation"
+	},
+	"Anki block equation": {
+		"prefix": "ebk",
+		"body": [
+			"\\[$1\\]"
+		],
+		"description": "Anki block equation"
+	},
+	"LaTex superscript": {
+		"prefix": "sups",
+		"body": [
+			"^{$1}"
+		],
+		"description": "LaTex superscript"
+	},
+	"LaTex subscript": {
+		"prefix": "subs",
+		"body": [
+			"_{$1}"
+		],
+		"description": "LaTex subscript"
+	},
+	"latex matrix 2x2": {
+		"prefix": "m22",
+		"body": [
+			"\\begin{bmatrix} $1 & $2 \\\\\\ $3 & $4 \\end{bmatrix}"
+		],
+		"description": "latex matrix 2x2"
+	},
+	"Latex matrix 3x3": {
+		"prefix": "m33",
+		"body": [
+			"\\begin{bmatrix} $1 & $2 & $3 \\\\\\ $4 & $5 & $6 \\\\\\ $7 & $8 & $9 \\end{bmatrix}"
+		],
+		"description": "latex matrix 3x3"
+	},
+	"latex matrix 2x1": {
+		"prefix": "m21",
+		"body": [
+			"\\begin{bmatrix} $1 \\\\\\ $2 \\end{bmatrix}"
+		],
+		"description": "latex matrix 2x1"
+	},
+
+
+
+	// Place your Anki workspace snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
+	// Placeholders with the same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"scope": "javascript,typescript",
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+}
